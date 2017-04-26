@@ -26,6 +26,7 @@ p {
 
 section {
 	width:100%;
+	margin-bottom:100px;
 }
 
 
@@ -52,7 +53,9 @@ section {
   -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 96%, 0% 100%);
   clip-path: polygon(0 0%, 100% 0%, 100% 96%, 0% 100%);*/
   background-image: url('/img/theme-titanium/headerbg-sharp.png');
+  background-repeat: no-repeat;
   background-position: bottom;
+  background-size: cover;
 }
 
 .row-header h1 {
@@ -66,11 +69,6 @@ section {
 	max-width: 200px;
 	box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.14);
 	min-width:200px;
-}
-
-
-.project-row {
-	margin-top:35px;
 }
 
 .project-img-col img {
@@ -95,6 +93,8 @@ section {
 	padding-bottom:100px;
 	background-image: url('/img/theme-titanium/footerbg-sharp.png');
   background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
