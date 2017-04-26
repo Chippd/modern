@@ -35,7 +35,7 @@ section {
 .row-header {
   min-height: 70vh;
   padding: 10vh 10vw 0 10vw;
-  background-image: url('/img/theme-titanium/headerbg-sharp.png');
+  background-image: url('../img/theme-titanium/headerbg-sharp.png');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -73,7 +73,7 @@ section {
 .row-footer {
 	padding-top:100px;
 	padding-bottom:100px;
-	background-image: url('/img/theme-titanium/footerbg-sharp.png');
+	background-image: url('../img/theme-titanium/footerbg-sharp.png');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
