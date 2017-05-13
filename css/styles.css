@@ -85,6 +85,10 @@ hr {
   margin: auto;
 }
 
+.techlogo {
+	width:140px;
+}
+
 .tech-item span{
 	color: grey;
 	margin-left:10px;
