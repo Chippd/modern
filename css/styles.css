@@ -13,8 +13,12 @@ p {
 
 section {
 	width:100%;
-	margin-bottom:100px;
+  margin: 40px 0;
 	padding: 0 5%;
+}
+
+hr {
+	max-width:300px;
 }
 
 
@@ -25,7 +29,15 @@ section {
 }
 
 .email {
-	color: white;
+	background: white;
+  bordeR: 0;
+  box-shadow: 0 3px 6px 3px #b5b5b5;
+  padding: 10px 15px;
+  transition: all 0.25s ease;
+}
+
+.email .glyphicon {
+	margin-right:5px;
 }
 
 .navbar-default .navbar-text {
@@ -35,8 +47,8 @@ section {
 
 .row-header {
   min-height: 70vh;
-  padding: 10vh 10vw 0 10vw;
-  background-image: url('../img/theme-titanium/headerbg-sharp.png');
+  padding: 10vh 10vw 100px 10vw;
+  background-image: url('../img/theme-titanium/bg2.png');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -53,6 +65,8 @@ section {
 	max-width: 200px;
 	box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.14);
 	min-width:200px;
+	/*-webkit-filter: grayscale(1);
+  filter: grayscale(1);*/
 }
 
 .project-img-col img {
@@ -74,7 +88,7 @@ section {
 .row-footer {
 	padding-top:100px;
 	padding-bottom:100px;
-	background-image: url('../img/theme-titanium/footerbg-sharp.png');
+	background-image: url('../img/theme-titanium/bg1.png');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
