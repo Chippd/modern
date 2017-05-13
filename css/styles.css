@@ -17,6 +17,11 @@ section {
 	padding: 0 5%;
 }
 
+.section-heading {
+	text-transform: uppercase;
+  font-size: 1.6em;
+}
+
 hr {
 	max-width:300px;
 }
@@ -47,7 +52,7 @@ hr {
 
 .row-header {
   min-height: 70vh;
-  padding: 10vh 10vw 100px 10vw;
+  padding: 10vh 10vw 9vw 10vw;
   background-image: url('../img/theme-titanium/bg2.png');
   background-repeat: no-repeat;
   background-position: bottom;
@@ -80,7 +85,7 @@ hr {
   margin: auto;
 }
 
-.tech-item {
+.tech-item span{
 	color: grey;
 	margin-left:10px;
 }
