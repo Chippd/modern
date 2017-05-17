@@ -33,9 +33,9 @@ hr {
   z-index: 1;
 }
 
-.email {
+/*.email {
 	background: white;
-  bordeR: 0;
+  border: 0;
   box-shadow: 0 3px 6px 3px #b5b5b5;
   padding: 10px 15px;
   transition: all 0.25s ease;
@@ -43,7 +43,7 @@ hr {
 
 .email .glyphicon {
 	margin-right:5px;
-}
+}*/
 
 .navbar-default .navbar-text {
 	color:white;
@@ -51,16 +51,29 @@ hr {
 
 
 .row-header {
-  min-height: 70vh;
-  padding: 10vh 10vw 9vw 10vw;
-  background-image: url('../img/theme-titanium/bg2.png');
+  padding: 10vh 10vw 0 10vw;
+  background-image: url('https://images.unsplash.com/photo-1491962848787-57877fa19dc8?dpr=2&auto=format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
+  margin-bottom:100px;
+  display: flex;
+  align-items: center
 }
 
 .row-header h1 {
 	color: white;
+}
+
+.header-col {
+	position: relative;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
+  bottom: -60px;
+  padding: 50px 0;
+  max-width:400px;
+  margin:auto;
 }
 
 
@@ -68,10 +81,6 @@ hr {
 	border-radius:50%;
 	width:40%;
 	max-width: 200px;
-	box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.14);
-	min-width:200px;
-	/*-webkit-filter: grayscale(1);
-  filter: grayscale(1);*/
 }
 
 .project-img-col img {
@@ -95,14 +104,25 @@ hr {
 }
 
 .row-footer {
-	padding-top:100px;
-	padding-bottom:100px;
-	background-image: url('../img/theme-titanium/bg1.png');
-  background-position: top;
+	padding: 0vh 10vw 10vw 10vw;
+	margin-top:100px;
+	background-image: url('https://images.unsplash.com/photo-1491962848787-57877fa19dc8?dpr=2&auto=format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=');
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
+.footer-col {
+	position: relative;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
+  top: -60px;
+  padding: 50px 0;
+  max-width:400px;
+  margin:auto;
+}
 
 .btn.outline {
 	background: none;
