@@ -35,11 +35,16 @@ hr {
 
 .email {
 	background: white;
-  bordeR: 0;
-  box-shadow: 0 3px 6px 3px #b5b5b5;
+  box-shadow: 0 3px 6px 3px rgba(0, 0, 0, 0.2);
   padding: 10px 15px;
   transition: all 0.25s ease;
+  border:0;
 }
+
+.email:hover {
+  box-shadow: 0 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
 
 .email .glyphicon {
 	margin-right:5px;
@@ -53,10 +58,15 @@ hr {
 .row-header {
   min-height: 70vh;
   padding: 10vh 10vw 9vw 10vw;
-  background-image: url('../img/theme-titanium/bg2.png');
+  /*background-image: url('../img/theme-titanium/bg2.png');
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: cover;
+  background-size: cover;*/
+  background: #ee0979;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-clip-path: polygon(0 0%, 100% 0%, 100% 96%, 0% 100%);
+  clip-path: polygon(0 0%, 100% 0%, 100% 96%, 0% 100%);
 }
 
 .row-header h1 {
@@ -70,9 +80,29 @@ hr {
 	max-width: 200px;
 	box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.14);
 	min-width:200px;
-	/*-webkit-filter: grayscale(1);
-  filter: grayscale(1);*/
+  border: 5px solid white;
 }
+
+.header-devicons {
+	transform: rotate(-15deg);
+}
+
+.header-devicons .icon-holder {
+	transform: skew(5deg,0deg);
+	background: white;
+	padding:10px;
+	border-radius: 10px;
+	font-size:2em;
+	height:75px;
+	width:75px;
+	margin:5px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.14);
+}
+
+
 
 .project-img-col img {
 	max-width: 250px;
