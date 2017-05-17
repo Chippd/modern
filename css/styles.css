@@ -39,11 +39,11 @@ hr {
   box-shadow: 0 3px 6px 3px #b5b5b5;
   padding: 10px 15px;
   transition: all 0.25s ease;
-}
+}*/
 
 .email .glyphicon {
 	margin-right:5px;
-}*/
+}
 
 .navbar-default .navbar-text {
 	color:white;
@@ -61,17 +61,13 @@ hr {
   align-items: center
 }
 
-.row-header h1 {
-	color: white;
-}
-
 .header-col {
 	position: relative;
   background: rgb(255, 255, 255);
   border-radius: 5px;
   box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
   bottom: -60px;
-  padding: 50px 0;
+  padding: 30px 0;
   max-width:400px;
   margin:auto;
 }
@@ -98,9 +94,19 @@ hr {
 	width:140px;
 }
 
-.tech-item span{
-	color: grey;
-	margin-left:10px;
+.tech-item {
+	margin:10px;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tech-item-text {
+	margin-top:10px;
+}
+
+.tech-item i {
+	font-size:5em;
 }
 
 .row-footer {
