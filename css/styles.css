@@ -33,17 +33,6 @@ hr {
   z-index: 1;
 }
 
-/*.email {
-	background: white;
-  border: 0;
-  box-shadow: 0 3px 6px 3px #b5b5b5;
-  padding: 10px 15px;
-  transition: all 0.25s ease;
-}*/
-
-.email .glyphicon {
-	margin-right:5px;
-}
 
 .navbar-default .navbar-text {
 	color:white;
@@ -72,12 +61,26 @@ hr {
   margin:auto;
 }
 
-
 .profile-pic {
 	border-radius:50%;
 	width:40%;
 	max-width: 200px;
 }
+
+.header-col h2 {
+	font-size: 1.3em;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.email {
+  margin-top:20px;
+}
+
+.email .glyphicon {
+	margin-right:5px;
+}
+
 
 .project-img-col img {
 	max-width: 250px;
@@ -107,6 +110,11 @@ hr {
 
 .tech-item i {
 	font-size:5em;
+}
+
+.tech-tool-item {
+	margin-left:15px;
+  display: inline-block;;
 }
 
 .row-footer {
