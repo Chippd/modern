@@ -29,7 +29,7 @@ hr {
 
 .navbar.navbar-default {
 	background: none;
-	border: none; 
+	border: none;
   z-index: 1;
 }
 
@@ -41,7 +41,7 @@ hr {
 
 .row-header {
   padding: 10vh 10vw 0 10vw;
-  background-image: url('../img/dublin.jpg');
+  background-image: url('../img/kyiv-sophia.jpg');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -95,6 +95,8 @@ hr {
 
 .techlogo {
 	width:140px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
 .tech-item {
